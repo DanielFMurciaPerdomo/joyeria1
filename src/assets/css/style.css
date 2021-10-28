@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+    background-color: #FFF9EB;
+}
+/* Todo lo relacionado con la cabecera */
+header{
+    
+    background-color: #FFE6A7;
+}
+header .contenedor{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+header .contenedor div{
+    margin: 7px;
+}
+header .contenedor img{
+    width: 200px;
+    float: left;
+    margin: 0;
+    border-radius: 100px;
+}
+header .contenedor h1{
+    color: #3C2416;
+    font-size: 60px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    text-align: center;
+    width: auto;
+    max-width: 1300px;
+}
+header .contenedor h3{
+    text-align: center;
+    width: auto;
+    padding-left: 2rem;
+    max-width: 1300px;
+
+}
+/* Todo lo relacionado con la Navegacion */
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #663d29;
+    margin: 0;
+    border-top-color: #1e120b;
+    border-style: solid;
+    border-left-color: #1e120b;
+    border-right-color: #1e120b;
+    border-bottom-color: #1e120b;
+    text-align: right;
+    
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: #0f0906;
+    padding: 20px;
+    display: block;
+    cursor: pointer;  
+}
+.menu li a:hover{
+    background-color: #865232;
+    color: #e0be67;
+    
+}
+/* Todo lo relacionado con el Inicio */
+.mios{
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.mios .proyecto{
+    width: 600px;
+    height: 460px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #7F7979;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0,25s;
+    background-image: url('../img/FondoInicio.jpeg');
+    background-size: 100% 100%;
+    color: #3C2416;
+}
+.mios .proyecto h1{
+    font-size: 80px;
+    padding-top: 1rem;
+}
+.mios .proyecto h4{
+    padding-top: 10rem;
+}
+/* Todo lo relacionado con los anillos */
+.anillo{
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.anillo .proyecto{
+    width: 400px;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #7F7979;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0,25s;
+    background-color: #F0F0F0;
+    color: #3D3B3C;
+}
+.anillo .proyecto:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px #7F7979;
+}
+
+.anillo .proyecto img{
+    margin-top: 1rem;
+    width: 300px;
+    height: 240px;
+}
+.anillo .proyecto h4{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+.anillo .proyecto p {
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.anillo .proyecto .ingrese{
+    margin: 6px;
+    font-family: Verdana, sans-serif;
+}
+.titulo h1{
+    margin-top: 0px;
+    /* color: #47454c; */
+    color: #3C2416;
+    background-color: #FFE6A7;
+    /* color: black; */
+    text-transform: uppercase;
+    text-align: center;
+    padding:20px;
+    border-top-color: #1e120b;
+    border-style: solid;
+    border-left-color: #1e120b;
+    border-right-color: #1e120b;
+    border-bottom-color: #1e120b;
+    /* text-shadow:0 2px 0px #323031; */
+
+}
+.anillo p{
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+.anillo a{
+    text-decoration: none;
+    color: #323031;
+}
+/* Todo lo relacionado con el pie de pagina */
+footer{
+    font-size: 14px;
+    margin-top: 0;
+    padding: 2rem;
+    background-color: #FFEEC2;
+}
+footer section{
+    float: right;
+    text-decoration: none;
+}
+footer a{
+    color: #3C2416;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #e0be67;
+}

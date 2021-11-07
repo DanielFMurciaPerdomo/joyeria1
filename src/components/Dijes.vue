@@ -1,7 +1,7 @@
 <template>
     <div class="fondo1">
     <div class="titulo">
-        <h1>Aretes</h1>
+        <h1>Dijes</h1>
     </div>
     <div class="joya">
         <div class="proyecto">

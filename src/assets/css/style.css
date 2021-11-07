@@ -208,6 +208,39 @@ header .contenedor h3{
     text-decoration: none;
     color: #323031;
 }
+/* Todo lo relacionado con el contacto */
+
+.fondo1 .redes{
+    width: 200;
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+.fondo1 .cartaRed{
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px #7F7979;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0,25s;
+    background-color: #F0F0F0;
+    color: #3D3B3C;
+}
+.fondo1 .cartaRed:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px #7F7979;
+}
+.fondo1 .red{
+    
+    width: 100%;
+    float: left;
+    margin: 0;
+    border-radius: 50px;  
+}
 /* Todo lo relacionado con el pie de pagina */
 footer{
     font-size: 14px;

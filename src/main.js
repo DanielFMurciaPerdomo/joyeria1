@@ -3,11 +3,13 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import Inicio from './components/Inicio.vue'
 import Anillos from './components/Anillos.vue'
+import Aretes from './components/Aretes.vue'
 Vue.use(VueRouter)
 const routes = [
   {path:'/inicio', component:Inicio},
   {path:'/', component:Inicio},
   {path:'/anillos', component:Anillos},
+  {path:'/aretes', component:Aretes},
 ]
 const router= new VueRouter({
   routes,

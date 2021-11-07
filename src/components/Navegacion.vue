@@ -9,9 +9,9 @@
             <li><router-link to="/contacto">Redes</router-link></li> -->
             <li><router-link to="/inicio">Inicio</router-link></li>
             <li><router-link to="/anillos">Anillos</router-link></li>
+            <li><router-link to="/aretes">Aretes</router-link></li>
             <li><a to="/habilidades">Pulseras</a></li>
             <li><a to="/experiencia">Gargantillas</a></li>
-            <li><a to="/contacto">Aretes</a></li>
             <li><a to="/contacto">Dijes</a></li>
             <li><a to="/contacto">Contacto</a></li>
         </ul>

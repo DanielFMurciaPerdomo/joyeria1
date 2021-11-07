@@ -102,7 +102,7 @@ header .contenedor h3{
     padding-top: 10rem;
 }
 /* Todo lo relacionado con los anillos */
-.anillo{
+.joya{
     width: 100%;
     max-width: 2000px;
     display: flex;
@@ -110,7 +110,7 @@ header .contenedor h3{
     justify-content: center;
     margin: auto;
 }
-.anillo .proyecto{
+.joya .proyecto{
     width: 400px;
     height: 380px;
     border-radius: 8px;
@@ -122,26 +122,26 @@ header .contenedor h3{
     background-color: #F0F0F0;
     color: #3D3B3C;
 }
-.anillo .proyecto:hover{
+.joya .proyecto:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px #7F7979;
 }
 
-.anillo .proyecto img{
+.joya .proyecto img{
     margin-top: 1rem;
     width: 300px;
     height: 240px;
 }
-.anillo .proyecto h4{
+.joya .proyecto h4{
     margin: 0;
     font-family: Verdana, sans-serif;
 }
-.anillo .proyecto p {
+.joya .proyecto p {
     text-align: center;
     margin-bottom: 1rem;
 
 }
-.anillo .proyecto .ingrese{
+.joya .proyecto .ingrese{
     margin: 6px;
     font-family: Verdana, sans-serif;
 }
@@ -162,13 +162,13 @@ header .contenedor h3{
     /* text-shadow:0 2px 0px #323031; */
 
 }
-.anillo p{
+.joya p{
     text-align: justify;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 0;
 }
-.anillo a{
+.joya a{
     text-decoration: none;
     color: #323031;
 }

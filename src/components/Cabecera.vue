@@ -12,6 +12,17 @@
                 <h3>"La distincion hecha Joya"</h3>
             </div>
         </div>
+        <div class="redes">
+            <div class="cartaRed">
+                <img class="red" src="../assets/img/redes sociales/facebook.png" alt="Facebook">
+            </div>
+            <div class="cartaRed">
+                <img class="red" src="../assets/img/redes sociales/instagram.jpg" alt="Instagram">
+            </div>
+            <div class="cartaRed">
+                <img class="red" src="../assets/img/redes sociales/gmail.png" alt="Gmail">
+            </div>
+        </div>
     </div>
 </header>
 </template>

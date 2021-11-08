@@ -42,8 +42,15 @@
                         <li> ☏ 647 00 10</li>
                         <li> ✉ joyaspablom@hotmail.com</li>
                     </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
-                    <p>Company.com</p>
+                    <p>
+                        Somos una joyeria con mucha proyeccion en el futuro, 
+                        dando siempre importancia a nuestros clientes y sus necesidades
+                        puediendo ser contactados por redes sociales para tener una atencion
+                        mas enfocada a lo personal del cliente, tambien agradecemos obtener
+                        proveedores los cuales ofrescan y esten dispuestos a dar un buen 
+                        servicio en una gran compañia.
+                    </p>
+                    <p>JoyeriaD&P.com</p>
                 </div>
             </div>
         </div>

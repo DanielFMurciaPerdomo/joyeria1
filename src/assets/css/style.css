@@ -209,37 +209,105 @@ header .contenedor h3{
     color: #323031;
 }
 /* Todo lo relacionado con el contacto */
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
 
-.fondo1 .redes{
-    width: 200;
-    max-width: 2000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #f1d68f;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
     margin: 0;
+    padding: 1em;
 }
-.fondo1 .cartaRed{
-    width: 200px;
-    height: 250px;
-    border-radius: 50px;
-    box-shadow: 0 2px 2px #7F7979;
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0,25s;
-    background-color: #F0F0F0;
-    color: #3D3B3C;
+
+.contact-form form .block {
+    grid-column: 1 / 3;
 }
-.fondo1 .cartaRed:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px #7F7979;
-}
-.fondo1 .red{
-    
+
+.contact-form form button{
     width: 100%;
-    float: left;
-    margin: 0;
-    border-radius: 50px;  
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #663d29; 
+}
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #3C2416;
+    border-bottom: 1px solid #663d29;
+}
+
+.contact-form form button {
+    background: #552f1d;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #7e4d34;
+    color: #fff;
+    transition: background-color .5s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: #e0be67;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
 }
 /* Todo lo relacionado con el pie de pagina */
 footer{

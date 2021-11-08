@@ -1,65 +1,50 @@
 <template>
 <div class="fondo1">
     <div class="titulo">
-        <h1>Redes sociales</h1>
-    </div>
-     <div class="redes">
-            <div class="cartaRed">
-                <img class="red" src="../assets/img/redes sociales/facebook.png" alt="Facebook">
-                <h1>Facebook</h1>
-            </div>
-            <div class="cartaRed">
-                <img class="red" src="../assets/img/redes sociales/instagram.jpg" alt="Instagram">
-                <h1>Instagram</h1>
-            </div>
-            <div class="cartaRed">
-                <img class="red" src="../assets/img/redes sociales/gmail.png" alt="Gmail">
-                <h1>Correo</h1>
-            </div>
-        </div>
-    <div class="titulo">
         <h1>Contacto proveedor</h1>
     </div>
-    <div class="contact-wrapper animated bounceInUp">
-            <div class="contact-form">
-                <h3>Contact us</h3>
-                <form action="">
-                    <p>
-                        <label>FullName</label>
-                        <input type="text" name="fullname">
-                    </p>
-                    <p>
-                        <label>Email Adress</label>
-                        <input type="email" name="email">
-                    </p>
-                    <p>
-                        <label>Phone Number</label>
-                        <input type="tel" name="phone">
-                    </p>
-                    <p>
-                        <label>Affair</label>
-                        <input type="text" name="affair">
-                    </p>
-                    <p class="block">
-                       <label>Message</label> 
-                        <textarea name="message" rows="3"></textarea>
-                    </p>
-                    <p class="block">
-                        <button>
-                            Send
-                        </button>
-                    </p>
-                </form>
-            </div>
-            <div class="contact-info">
-                <h4>More Info</h4>
-                <ul>
-                    <li><i class="fas fa-map-marker-alt"></i> Baker Street</li>
-                    <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
-                    <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
-                <p>Company.com</p>
+    <div class="container">
+        <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Escribe para contactarnos</h3>
+                    <form action="">
+                        <p>
+                            <label for="nombre completo">Nombre Completo/Nombre Compañia</label>
+                            <input type="text" name="fullname" id="nombre completo">
+                        </p>
+                        <p>
+                            <label for="correo">Email</label>
+                            <input type="email" name="email" id="correo">
+                        </p>
+                        <p>
+                            <label for="telefono">Telefono de contacto</label>
+                            <input type="tel" name="phone" id="telefono">
+                        </p>
+                        <p>
+                            <label for="material">Materal a proveer</label>
+                            <input type="text" name="affair" id="material">
+                        </p>
+                        <p class="block">
+                            <label for="mensaje">Mensaje</label> 
+                            <textarea name="message" rows="3" id="mensaje"></textarea>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Mas información</h4>
+                    <ul>
+                        <li> ❢ Fontibon, la cofradia</li>
+                        <li> ☏ 647 00 10</li>
+                        <li> ✉ joyaspablom@hotmail.com</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                    <p>Company.com</p>
+                </div>
             </div>
         </div>
 </div>

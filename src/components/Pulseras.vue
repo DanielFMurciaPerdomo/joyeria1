@@ -5,40 +5,50 @@
     </div>
     <div class="joya">
         <div class="proyecto">
-             <img class="yox" src="../assets/img/anillo/anillo9.jpeg" alt="Mi persona">
-             <h4>Anillo de oro con zafiro y circones</h4>
+             <img class="yox" src="../assets/img/pulsera/pulsera.jpeg" alt="Mi persona">
+             <h4>Pulsera oro y esmeralda</h4>
              <p>
-                Anillo elegante en oro de 18 kilates para eventos especiales, buen 
-                regalo para 15 años. 
+                Pulsera muy elegante para eventos muy formales y 
+                lucir una hermosa joya. 
              </p>
-             <h4>$70.000</h4>
-         </div>
-          <div class="proyecto">
-             <img class="yox" src="../assets/img/anillo/anillo8.jpeg" alt="Mi persona">
-             <h4>Anillo de oro con esmeralda y diamantes</h4>
-             <p>
-                 Anillo para eventos exclusivos, en oro de 18 kilates, el anillo perfecto
-                 para esa persona especial.
-             </p>
-             <h4>$100.000</h4>
+             <h4>$5.800.000</h4>
          </div>
          <div class="proyecto">
-             <img class="yox" src="../assets/img/anillo/anillo7.jpeg" alt="Mi persona">
-             <h4>Anillo de plata y circones</h4>
+             <img class="yox" src="../assets/img/pulsera/pulsera1.jpeg" alt="Mi persona">
+             <h4>Pulsera oro blanco y esmeraldas</h4>
              <p>
-                 Anillo elegante para mujer, con piedras de colores llamativos.
+                Pulsera muy elegante y formal perfecto para 
+                lucir con vestidos elegantes. 
              </p>
-             <h4>$50.000</h4>
-         </div>  
+             <h4>$7.000.000</h4>
+         </div>
         <div class="proyecto">
-            <img class="spring" src="../assets/img/anillo/anillo.jpeg" alt="Mi persona">
-            <h4>Anillo de plata</h4>
-            <p>
-                Anillo de plata con diseño simple para hombre, elegante y para el común.
-            </p>
-            <h4 class="ingrese">$30.000</h4>
-                
-        </div>  
+             <img class="yox" src="../assets/img/pulsera/pulsera2.jpeg" alt="Mi persona">
+             <h4>Pulsera oro y esmeraldas</h4>
+             <p>
+                Pulsera de muy alto valor y elegante con muchas 
+                piedras preciosas. 
+             </p>
+             <h4>$7.500.000</h4>
+         </div>
+         <div class="proyecto">
+             <img class="yox" src="../assets/img/pulsera/pulsera3.jpeg" alt="Mi persona">
+             <h4>Pulsera or blanco y esmeraldas</h4>
+             <p>
+                Pulsera elegante de color claro y disimulada perfecta
+                para cualquier evento. 
+             </p>
+             <h4>$3.900.000</h4>
+         </div>
+         <div class="proyecto">
+             <img class="yox" src="../assets/img/pulsera/pulsera4.jpeg" alt="Mi persona">
+             <h4>Pulsera oro y esmeraldas</h4>
+             <p>
+                Pulsera con uma forma particular y elegante para 
+                sorprender en cualquier evento.
+             </p>
+             <h4>$2.400.000</h4>
+         </div> 
     </div>
 </div> 
 </template>

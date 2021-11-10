@@ -19,9 +19,11 @@
             <div class="cartaRed">
                 <img class="red" src="../assets/img/redes sociales/instagram.jpg" alt="Instagram">
             </div>
+            <a href="mailto:joyaspablom@hotmail.com">
             <div class="cartaRed">
                 <img class="red" src="../assets/img/redes sociales/gmail.png" alt="Gmail">
             </div>
+            </a>
         </div>
     </div>
 </header>

@@ -5,6 +5,7 @@
     </div>
 
     <div class="joya">
+        
         <div class="proyecto">
              <img class="yox" src="../assets/img/anillo/anillo9.jpeg" alt="Mi persona">
              <h4>Anillo de oro con zafiro y diamantes</h4>
